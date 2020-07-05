@@ -7,6 +7,7 @@ verify_ssl = true
 flake8 = "*"
 pytest-django = "*"
 pytest-cov = "*"
+model-bakery = "*"
 
 [packages]
 django = "*"
@@ -15,6 +16,8 @@ celery = "*"
 python-decouple = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
+ipython = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.8"
